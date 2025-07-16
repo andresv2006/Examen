@@ -62,7 +62,7 @@ def ordenar_productos():
       
 #menu
 while True:
-    print("***Menu***")
+    print("========Menu========")
     print("1. Stock marca")
     print("2. Busqueda por precio")
     print("3. Listado produtos")
