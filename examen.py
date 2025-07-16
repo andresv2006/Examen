@@ -63,12 +63,12 @@ def ordenar_productos():
 #menu
 while True:
     print("========Menu========")
-    print("====================")
     print(" 1. Stock marca  ")
     print(" 2. Busqueda por precio  ")
     print(" 3. Listado produtos ")
     print(" 4. Salir    ")
-    opc=input("Opción: ")
+    print("====================")
+    opc=input("Elija una Opción: ")
     if opc=="1":
         stock_marca(marca)
         break
