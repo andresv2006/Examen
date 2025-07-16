@@ -68,7 +68,7 @@ while True:
     print(" 2. Busqueda por precio  ")
     print(" 3. Listado produtos ")
     print(" 4. Salir    ")
-    opc=input("Elija una Opción: ")
+    opc=input("Opción: ")
     if opc=="1":
         stock_marca(marca)
         break
