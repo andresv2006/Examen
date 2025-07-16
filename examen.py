@@ -45,7 +45,7 @@ def buqueda_precio(precio):
         try:
             precio_min=int(input("Ingrese precio minimo: "))
             precio_max=int(input("ingrese Precio Maximo: "))
-            if precio_min>=249990 and precio_min<=749990 and precio_max<=749990 and precio_max>=249990:
+            if precio_min>=1 and precio_min<=749990 and precio_max<=749990 and precio_max>=249990:
                 for a,b in stock.items():
                     precio=b[0]
                 if precio>=precio_min and precio<=precio_max:
